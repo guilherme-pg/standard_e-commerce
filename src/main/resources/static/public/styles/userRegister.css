@@ -1,0 +1,47 @@
+main {
+    background-color: #FFFFF0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.user_form {
+    background-color: #bfbf7f;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 75%;
+    width: 40%;
+    margin: 70px 0 50px 0;
+}
+.user_form label {
+    margin-bottom: 2px;
+}
+.user_form h2, .user_form label, .user_form select {
+    color: #0c4724;
+}
+.label_input_zone {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.input_write {
+    width: 75%
+}
+.input_image {
+    color: #737300;
+}
+.submit_button_zone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.general_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 0 5px 0;
+    width: 60%
+}

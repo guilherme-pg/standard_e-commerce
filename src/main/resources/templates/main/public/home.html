@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{template.html}">
+<head>
+    <link rel="stylesheet"  th:href="@{styles/home.css}">
+    <title>Standard E-Commerce</title>
+</head>
+<body>
+    <div layout:fragment="content">
+
+        <main>
+
+            <section class="home_zone">
+                <h1>some products</h1>
+            </section>
+
+            <section class="home_zone mission_zone" id="mission">
+                <h1>Our Mission</h1>
+                <div class="texts_zones">
+
+                </div>
+            </section>
+
+            <section class="home_zone">
+                <h1>Come be part of this network!</h1>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
